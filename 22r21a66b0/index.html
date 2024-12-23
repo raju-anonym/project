@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Raju P</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #1f42ab;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0078d7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #0078d7;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #5d21a1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raju P</h1>
+        <p>Creative and Skilled Professional</p>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p><p>Hello! My name is Raju P, and I am a fresher skilled in web development. I am passionate about crafting modern, responsive websites and continuously learning new technologies. With a strong foundation in web development and a commitment to quality, I am eager to bring value to any project or team I join.</p>
+          </p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>java</li>
+                <li>python</li>
+                <li>web development</li>
+                <li>c++</li>
+            </ul>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="section" id="portfolio">
+            <h2>Portfolio</h2>
+            <ul>
+                <li>Project 1 - 
+               
+                    
+                    Online-Based Services Platform
+                    This project involves designing and developing a comprehensive platform that connects users with various online services. The platform aims to simplify the process of accessing and managing services like booking appointments, online consultations, delivery services, and more. Key features of the project include:.</li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="22r21a66b0@mlrit.ac.in">22r21a66b0@mlrit.ac.in</a></p>
+            <p>Phone: +91-75658464848</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Raju| Built with passion and dedication</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section h2');
+
+            sections.forEach(section => {
+                section.addEventListener('click', () => {
+                    alert(`You clicked on the ${section.textContent} section.`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
